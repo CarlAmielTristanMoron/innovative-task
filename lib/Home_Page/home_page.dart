@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar_view.dart';
+import 'package:innovative_task1/Home_Page/O%C3%B1ate_Files/o%C3%B1ate_tab_bar.dart';
 import 'package:innovative_task1/Image/Images.dart';
+
+import 'Oñate_Files/oñate_tab_bar_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -12,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
 
-  late TabController controller = TabController(length: 8, vsync: this);
+  late TabController controller = TabController(length: 2, vsync: this);
 
   @override
   Widget build(BuildContext context) {
@@ -140,13 +143,15 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           isScrollable: true,
           tabs: const [
             MoronTabBar(),
+            OnateTabBar()
           ]
         ),
       ),
       body: TabBarView(
         controller: controller,
         children: const [
-          MoronTabBarView()
+          MoronTabBarView(),
+          OnateTabBarView()
         ]
       ),
     );

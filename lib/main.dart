@@ -2,7 +2,7 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:innovative_task1/Image/Images.dart';
 import 'package:page_transition/page_transition.dart';
-import 'front_page.dart';
+import 'Front_Pages/front_page.dart';
 
 void main() {
   runApp(MaterialApp(
