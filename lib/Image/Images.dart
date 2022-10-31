@@ -13,4 +13,11 @@ class Images {
   static const fatherOnateProfile = '${asset}FatherOñate.png';
   static const motherOnateProfile = '${asset}MotherOñate.png';
 
+  static const ronoloProfile = '${asset}Eljohn.png';
+  static const motherRonoloProfile = '${asset}Eljohn-Mama.png';
+  static const dodongProfile = '${asset}Eljohn-Dodong.png';
+  static const jadeProfile = '${asset}Eljohn-Jade.png';
+  static const jelieProfile = '${asset}Eljohn-Jelie.png';
+  
+
 }
