@@ -32,7 +32,7 @@ class _VaguchayTabBarState extends State<VaguchayTabBar> {
               ),
               const Text('Vaguchay',
                 style: TextStyle(
-                    fontSize: 7.34
+                    fontSize: 7.39
                 ),
               )
             ],
