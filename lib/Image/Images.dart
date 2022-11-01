@@ -18,6 +18,14 @@ class Images {
   static const dodongProfile = '${asset}Eljohn-Dodong.png';
   static const jadeProfile = '${asset}Eljohn-Jade.png';
   static const jelieProfile = '${asset}Eljohn-Jelie.png';
-  
+
+  static const vaguchayProfile = '${asset}rico.png';
+  static const fatherVaguchayProfile = '${asset}FatherVaguchay.png';
+  static const motherVaguchayProfile = '${asset}MotherVaguchay.png';
+  static const arylProfile = '${asset}SisterVaguchay.png';
+  static const hecenProfile = '${asset}BrotherHVaguchay.png';
+  static const jongProfile= '${asset}BrotherJVaguchay.png';
+
+
 
 }
