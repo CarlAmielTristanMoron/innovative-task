@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar_view.dart';
-import 'package:innovative_task1/Home_Page/O%C3%B1ate_Files/o%C3%B1ate_tab_bar.dart';
+import 'Oñate_Files/oñate_tab_bar.dart';
+import 'Oñate_Files/oñate_tab_bar_view.dart';
 import 'package:innovative_task1/Home_Page/Ronolo_Files/ronolo_tab_bar.dart';
 import 'package:innovative_task1/Home_Page/Ronolo_Files/ronolo_tab_bar_view.dart';
 import 'package:innovative_task1/Home_Page/Vaguchay_Files/vaguchay_tab_bar.dart';
 import 'package:innovative_task1/Home_Page/Vaguchay_Files/vaguchay_tab_bar_view.dart';
 import 'package:innovative_task1/Image/Images.dart';
 
-import 'Oñate_Files/oñate_tab_bar_view.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
