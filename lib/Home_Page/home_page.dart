@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar.dart';
 import 'package:innovative_task1/Home_Page/Moron_Files/moron_tab_bar_view.dart';
+import 'Nacario_Files/nacario_tab_bar.dart';
+import 'Nacario_Files/nacario_tab_bar_view.dart';
 import 'Oñate_Files/oñate_tab_bar.dart';
 import 'Oñate_Files/oñate_tab_bar_view.dart';
 import 'package:innovative_task1/Home_Page/Ronolo_Files/ronolo_tab_bar.dart';
@@ -19,7 +21,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
 
-  late TabController controller = TabController(length: 4, vsync: this);
+  late TabController controller = TabController(length: 5, vsync: this);
 
   @override
   Widget build(BuildContext context) {
@@ -150,6 +152,8 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             OnateTabBar(),
             RonoloTabBar(),
             VaguchayTabBar(),
+            NacarioTabBar(),
+
           ]
         ),
       ),
@@ -160,6 +164,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           OnateTabBarView(),
           RonoloTabBarView(),
           VaguchayTabBarView(),
+          NacarioTabBarView(),
         ]
       ),
     );

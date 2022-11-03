@@ -24,8 +24,12 @@ class Images {
   static const motherVaguchayProfile = '${asset}MotherVaguchay.png';
   static const arylProfile = '${asset}SisterVaguchay.png';
   static const hecenProfile = '${asset}BrotherHVaguchay.png';
-  static const jongProfile= '${asset}BrotherJVaguchay.png';
+  static const jongProfile = '${asset}BrotherJVaguchay.png';
 
+  static const kennNacarioProfile = '${asset}KennNacario.png';
+  static const brotherNacarioProfile = '${asset}BrotherNacario.png';
+  static const fatherNacarioProfile = '${asset}FatherNacario.png';
+  static const motherNacarioProfile = '${asset}MotherNacario.png';
 
 
 }
