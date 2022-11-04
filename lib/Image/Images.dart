@@ -31,5 +31,7 @@ class Images {
   static const fatherNacarioProfile = '${asset}FatherNacario.png';
   static const motherNacarioProfile = '${asset}MotherNacario.png';
 
-
+  static const pacheoProfile = '${asset}ronny.png';
+  static const grandmotherPacheoProfile = '${asset}GrandmotherPacheo.png';
+  static const motherPacheoProfile = '${asset}MotherPacheo.png';
 }
